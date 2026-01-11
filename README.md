@@ -1,4 +1,5 @@
 # Standard Chartered Bank Pakistan - MERN Banking Application
+Live url:https://enterpriselevelbankingsystem.vercel.app/login
 
 A complete academic banking web application demonstrating 10 core business processes with role-based access control.
 
@@ -39,24 +40,6 @@ A complete academic banking web application demonstrating 10 core business proce
 
 ### **1. Clone & Setup**
 
-```bash
-cd /home/abdullah-jutt/Desktop/BPE
-```
-
-### **2. Backend Setup**
-
-```bash
-cd server
-npm install
-```
-
-Create `.env` file:
-```env
-MONGODB_URI=mongodb+srv://your-username:your-password@cluster.mongodb.net/scb-banking?retryWrites=true&w=majority
-JWT_SECRET=your_super_secret_jwt_key_here
-PORT=5000
-SIMULATED_OTP=123456
-```
 
 Start backend:
 ```bash
